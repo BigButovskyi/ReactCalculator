@@ -1,13 +1,15 @@
 import React, {Component} from "react";
 import classes from "./Calculator.css";
-import Expression from "./Expression/Expression";
+import ExpressionArea from "./ExpressionArea/ExpressionArea";
 import MathControls from "./MathButtons/MathControls";
 
 export default class Calculator extends Component {
     render() {
         return (
             <div className={classes.Calculator}>
-                <Expression/>
+                <section className={classes.Expression}>
+                    <ExpressionArea/>
+                </section>
                 <MathControls/>
             </div>
         );
