@@ -1,0 +1,12 @@
+.MathButtons{
+    background: orangered;
+    width: 100%;
+    height: 75%;
+}
+
+.MathSection{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background: blue;
+}
