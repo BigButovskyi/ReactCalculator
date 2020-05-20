@@ -9,8 +9,9 @@
     resize: none;
     background: black;
     color:white;
-    font-size: 45px;
+    font-size: 60px;
     text-align: right;
+    font-family: Robotic;
 }
 
 .Area:focus{

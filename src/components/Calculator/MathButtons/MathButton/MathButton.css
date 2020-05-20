@@ -1,24 +1,26 @@
-.MathButton{
+.MathButton {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 25%;
     height: 100%;
     padding: 0;
-    margin:0;
+    margin: 0;
+    box-shadow: inset 1px 1px darkred;
 }
 
-.strict{
+.strict {
     background: #b10d27;
     font-size: 30px;
 }
 
-.number{
+.number {
     background: cornsilk;
-    font-size: 30px;
+    font-family: Robotic;
+    font-size: 50px;
 }
 
-.operation{
+.operation {
     background: #81b426;
     font-size: 35px;
 }

@@ -2,6 +2,7 @@
     background: orangered;
     width: 100%;
     height: 75%;
+    user-select: none;
 }
 
 .MathSection{

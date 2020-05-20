@@ -3,8 +3,9 @@ import classes from "./ExpressionArea.css";
 
 class ExpressionArea extends Component{
     render() {
+        let expression = this.props.expression.join("");
         return (
-            <textarea className={classes.Area}></textarea>
+            <textarea className={classes.Area} value={expression} readOnly/>
         );
     }
 }
