@@ -7,20 +7,45 @@
     padding: 0;
     margin: 0;
     box-shadow: inset 1px 1px darkred;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
 .strict {
-    background: #b10d27;
+    background: #ff5872;
     font-size: 30px;
+    box-shadow: inset 0px 0px 23px 2px #ff9c9c;
+}
+
+.strict:hover{
+    background: red;
+    box-shadow: inset 0px 0px 5px 50px #858a43;
 }
 
 .number {
-    background: cornsilk;
+    background: #f3f9ff;
     font-family: Robotic;
     font-size: 50px;
+    box-shadow: inset 0px 0px 25px 2px #bfbfbf;
+}
+
+.number:hover{
+    background: #bfbfbf;
+    box-shadow: inset 0px 0px 50px 10px #ff769a;
 }
 
 .operation {
-    background: #81b426;
+    box-shadow: inset 0px 0px 23px 1px #71b8c3;
+    background: #cfd3e6;
     font-size: 35px;
+}
+
+.operation:hover{
+    background: #c3970d;
+    box-shadow: inset 0px 0px 15px 40px #16e67a;
+}
+
+.MathButton:active{
+    background: #158a91;
+    box-shadow: inset 0px 0px 50px 5px black;
 }

@@ -1,0 +1,13 @@
+.Modal{
+    position: fixed;
+    left: 30%;
+    top:30%;
+    width: 40%;
+    height: auto;
+    background: #cff2ff;
+    z-index: 101;
+    transition: 0.5s ease;
+    color:#6e568e;
+    border-radius: 10px;
+    font-family: Arial;
+}

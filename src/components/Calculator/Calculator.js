@@ -14,7 +14,7 @@ export default class Calculator extends Component {
                 name: "⌫",
                 type: "operation"
             }, {
-                name: "%",
+                name: "√",
                 type: "operation"
             }, {
                 name: "÷",
@@ -92,7 +92,11 @@ export default class Calculator extends Component {
                 temporaryExpression = [];
                 break;
             default:
-                temporaryExpression.push(symbol);
+                if(temporaryExpression.join("").length >= 23){
+                    alert("Too much characters!")
+                }else{
+                    temporaryExpression.push(symbol);
+                }
         }
 
         this.setState({
@@ -100,24 +104,39 @@ export default class Calculator extends Component {
         });
     };
 
-    submitAnswer = () => {
+    submitAnswer = (symbol) => {
         if (this.state.expression.length !== 0) {
             let expression = this.state.expression.join("");
             expression = expression.replace("×", "*");
-            expression = expression.replace("÷","/");
+            expression = expression.replace("÷", "/");
             try {
                 let answer = eval(expression);
+                if (symbol === "√") {
+                    answer = Math.sqrt(answer);
+                }
+
+                answer = this.checkAnswer(answer);
                 this.setState({
                     expression: [answer]
                 });
-            }catch (e) {
-                alert(e.message);
+
+            } catch (e) {
+                let errorMessage = "Fault in Expression. Please, check entered carefully!";
+                this.props.showError(errorMessage);
             }
 
-        }else{
+        } else {
             alert("Please, type expression!");
         }
     };
+
+    checkAnswer(answer){
+        if(isNaN(answer)){
+            this.props.showError("Could not divide by zeros!");
+            return 0;
+        }
+        return answer;
+    }
 
     render() {
         return (

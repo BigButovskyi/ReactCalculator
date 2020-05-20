@@ -5,7 +5,7 @@ class ExpressionArea extends Component{
     render() {
         let expression = this.props.expression.join("");
         return (
-            <textarea className={classes.Area} value={expression} readOnly/>
+            <textarea maxLength="3" className={classes.Area} value={expression} readOnly/>
         );
     }
 }
