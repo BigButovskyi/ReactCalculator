@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ReactCalculator/static/css/main.261d6190.chunk.css",
+    "main.js": "/ReactCalculator/static/js/main.6b63f237.chunk.js",
+    "main.js.map": "/ReactCalculator/static/js/main.6b63f237.chunk.js.map",
+    "runtime-main.js": "/ReactCalculator/static/js/runtime-main.443c3040.js",
+    "runtime-main.js.map": "/ReactCalculator/static/js/runtime-main.443c3040.js.map",
+    "static/js/2.d5f48272.chunk.js": "/ReactCalculator/static/js/2.d5f48272.chunk.js",
+    "static/js/2.d5f48272.chunk.js.map": "/ReactCalculator/static/js/2.d5f48272.chunk.js.map",
+    "index.html": "/ReactCalculator/index.html",
+    "precache-manifest.85a781aedbb91bb3680092b271549efe.js": "/ReactCalculator/precache-manifest.85a781aedbb91bb3680092b271549efe.js",
+    "service-worker.js": "/ReactCalculator/service-worker.js",
+    "static/css/main.261d6190.chunk.css.map": "/ReactCalculator/static/css/main.261d6190.chunk.css.map",
+    "static/js/2.d5f48272.chunk.js.LICENSE.txt": "/ReactCalculator/static/js/2.d5f48272.chunk.js.LICENSE.txt",
+    "static/media/Cloud_right_bottom.png": "/ReactCalculator/static/media/Cloud_right_bottom.1f9927e6.png",
+    "static/media/astronaut.png": "/ReactCalculator/static/media/astronaut.81ab502f.png",
+    "static/media/bg.png": "/ReactCalculator/static/media/bg.7a8340f5.png",
+    "static/media/cloud_Left_Top.png": "/ReactCalculator/static/media/cloud_Left_Top.7fb9e240.png",
+    "static/media/moon.png": "/ReactCalculator/static/media/moon.63673355.png",
+    "static/media/racket.png": "/ReactCalculator/static/media/racket.c54641f6.png",
+    "static/media/robotic.TTF": "/ReactCalculator/static/media/robotic.19de45a3.TTF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.443c3040.js",
+    "static/js/2.d5f48272.chunk.js",
+    "static/css/main.261d6190.chunk.css",
+    "static/js/main.6b63f237.chunk.js"
+  ]
+}
