@@ -93,7 +93,7 @@ export default class Calculator extends Component {
                 break;
             default:
                 if(temporaryExpression.join("").length >= 23){
-                    alert("Too much characters!")
+                    this.props.showError("Too much characters!")
                 }else{
                     temporaryExpression.push(symbol);
                 }
@@ -126,7 +126,7 @@ export default class Calculator extends Component {
             }
 
         } else {
-            alert("Please, type expression!");
+            this.props.showError("Please, type expression!");
         }
     };
 
