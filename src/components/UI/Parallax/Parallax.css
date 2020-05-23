@@ -1,0 +1,51 @@
+.Parallax{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.Parallax img{
+    position: absolute;
+}
+
+.mouseMove{
+
+}
+
+.bg{
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.cloudLeft{
+    top:0;
+    left:0;
+    width: 20%;
+}
+
+.cloudRight{
+    right: 0;
+    bottom: 0;
+    width: 20%;
+}
+
+.moon{
+    top:10%;
+    right:20%;
+    width: 10%;
+}
+
+.astronaut{
+    left:13%;
+    width: 50%;
+    bottom:10%;
+}
+
+.racket{
+    top:15%;
+    left:20%;
+    width: 10%;
+}
